@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+header section .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header section #logojc_i {
+  width: auto;
+  height: 80px;
+}
+
+section #primera {
+  transition: 0.5s;
+  object-fit: cover;
+}
+section #primera:hover {
+  transform: scale(1.1);
+}
+section #segunda {
+  transition: 0.5s;
+  object-fit: cover;
+}
+section #segunda:hover {
+  transform: scale(1.1);
+}
+section #tercera {
+  transition: 0.5s;
+  object-fit: cover;
+}
+section #tercera:hover {
+  transform: scale(1.1);
+}
+
+section #navegacion_p {
+  background-color: brown;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+section #volver_p {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */
